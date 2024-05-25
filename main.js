@@ -1,12 +1,9 @@
 "use strict";
-var firstname = "sadia";
-console.log(firstname);
-// 1st way to declare a variable //
-var firstname = "sadiakanwal";
-console.log(firstname);
-// 2nd way to declare a variable //
-var fathername = "raeesahmed";
-console.log(fathername);
-// 3rd way to declare a variable //
-var employeename;
-console.log(employeename);
+var myname = "sadia";
+var mylocation = "karachi";
+var marks = 500;
+var percetage = 80;
+console.log("name", myname);
+console.log("location", mylocation);
+console.log("marks", marks);
+console.log("percentage", percetage);
