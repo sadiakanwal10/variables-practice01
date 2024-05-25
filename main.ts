@@ -1,12 +1,4 @@
-// declaring a variables (employess profile) //
-
-var epmloyeename:string = "owaiskhan"
-var fathername = "khalidhussain"
-var designation = "accountant"
-var salary = 50000
-var idnumber = 42101
-console.log(epmloyeename)
-console.log(fathername)
-console.log(designation)
-console.log(salary)
-console.log(idnumber)
+// type assertion //
+var stu="1"
+var stu2:number=<number><any>stu
+console.log(typeof(stu2))
